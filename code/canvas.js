@@ -41,7 +41,7 @@ const calculateBG = () => {
     const dist = Math.sqrt(dx * dx + dy * dy);
     //scaling distnace to the
     const scaleFactor = dist / 5000;
-    // if dot is withing  assigned mouse focus radius color it in pink
+    // if dot is withing assigned mouse focus radius color it in pink
     // otherwise remove pink color
     if (dist < ATTACK_DISTANCE) {
       dot.classList.add("color");
