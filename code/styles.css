@@ -384,7 +384,7 @@ main {
 }
 
 .tech-skills {
-  text-align: center;
+  text-align: flex-start;
 }
 
 .marker {
