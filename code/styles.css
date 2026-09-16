@@ -1,6 +1,6 @@
 body {
   /* alternative pallet */
-  /* --sub-theme-color: goldenrod;
+  /* --sub-theme-color: goldenrod; //TODO: consider optional blue? #79bbf5
   --dot: white;
   --main-color: white;
   --text-color: #2b2b2b;
@@ -8,7 +8,8 @@ body {
   --overlay: rgba(0, 0, 0, 0.5);
   --header-text-color: #2b2b2b; */
   /* current pallet */
-  --sub-theme-color: #f57982;
+  /* --sub-theme-color: #f57982; */
+  --sub-theme-color: #5fd4e8;
   --main-color: white;
   --text-color: #2b2b2b;
   --dots-container: white;
@@ -35,8 +36,7 @@ body {
 }
 
 .glowing-shadow {
-  box-shadow: 0px 0px 19px 5px palevioletred;
-  /* box-shadow: 120px 80px 40px 20px #0ff; */
+  box-shadow: 0px 0px 19px 5px var(--sub-theme-color);
 }
 
 a {
@@ -287,6 +287,7 @@ main {
   align-self: center;
   position: absolute;
   margin: 0 auto;
+  color: var(--sub-theme-color);
 }
 
 .github {
@@ -442,7 +443,9 @@ main {
 
 /* *** shadow on boxes switching style ***  */
 .shadow {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* *** projects styles *** */

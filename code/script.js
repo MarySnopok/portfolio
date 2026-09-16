@@ -6,5 +6,5 @@ themeToggle.onchange = () => {
   document.body.classList.toggle("another-color-theme");
   containerWithDots.classList.toggle("glowing-shadow");
   containerWithDots.classList.toggle("default-shadow");
-  mediumWidget.classList.toggle("glowing-shadow");
+  mediumWidget?.classList.toggle("glowing-shadow");
 };
